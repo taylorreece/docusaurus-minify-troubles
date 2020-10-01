@@ -1,0 +1,14 @@
+{
+  "name": "my-shared-project",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "docs",
+      "other-project"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  }
+}
